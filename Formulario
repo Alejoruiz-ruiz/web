@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos basicos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form id="info-form" action="/enviar-informacion" method="POST">
+        <div>
+        <h1>infromaciòn aprendiz</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="email">Correo  :</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="pregunta">
+            <label for="Instituciòn">Instituciòn</label>
+            <select id="Instituciòn" name="satisfaccion" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Risaralda / 9308 Centro de Comercio y Servicios / Pereira">
+                    Risaralda / 9308 Centro de Comercio y Servicios / Pereira</option>
+                <option value="Antioquia / 9101 Centro de los Recursos Naturales Renovables -La Salada / Caldas">
+                    Antioquia / 9101 Centro de los Recursos Naturales Renovables -La Salada / Caldas</option>
+                <option value="Valle / 9124 Centro Agropecuario de Buga / Buga">Valle / 9124 Centro Agropecuario de Buga / Buga</option>
+                <option value="Cundinamarca / 9513 Centro de Desarrollo Agroempresarial / Chia">Cundinamarca / 9513 Centro de Desarrollo Agroempresarial / Chia</option>
+                <option value="Tolima / 9226 Centro de Industria y Construcción / Ibagué">Tolima / 9226 Centro de Industria y Construcción / Ibagué</option>
+                <option value="Valle / 9311 Centro de Gestión Tecnológica de Servicios / Cali">Valle / 9311 Centro de Gestión Tecnológica de Servicios / Cali</option>
+                <option value="Santander / 9122 Centro Atención Sector Agropecuario / Piedecuesta">Santander / 9122 Centro Atención Sector Agropecuario / Piedecuesta</option>
+                <option value="Nariño / 9536 Centro Internacional de Producción Limpia - Lope / Pasto">Nariño / 9536 Centro Internacional de Producción Limpia - Lope / Pasto</option>
+                <option value="Cauca / 9113 Centro Agropecuario / Popayán">Cauca / 9113 Centro Agropecuario / Popayán</option>
+                <option value="Nariño / 9536 Centro Internacional de Producción Limpia - Lope / Pasto">Nariño / 9536 Centro Internacional de Producción Limpia - Lope / Pasto</option>
+                <option value="Cundinamarca / 9511 Centro de la Tecnología de Diseño y la Productividad Empresarial / Girardot">Cundinamarca / 9511 Centro de la Tecnología de Diseño y la Productividad Empresarial / Girardot</option>
+                <option value="Valle / 9544 Centro de Biotecnología Industrial / Palmira">Valle / 9544 Centro de Biotecnología Industrial / Palmira</option>
+                <option value="Santander / 9546 Centro de Gestión Agroempresarial del Oriente / Barbosa">Santander / 9546 Centro de Gestión Agroempresarial del Oriente / Barbosa</option>
+                <option value="Cundinamarca / 9512 Centro de Biotecnología Agropecuaria / Mosquera">Cundinamarca / 9512 Centro de Biotecnología Agropecuaria / Mosquera</option>
+                <option value="Distrito Capital / 9210 Centro de Electricidad, Electrónica y Telecomunicaciones / Bogotá">Distrito Capital / 9210 Centro de Electricidad, Electrónica y Telecomunicaciones / Bogotá</option>
+                <option value="Quindío / 9231 Centro para el Desarrollo Tecnológico de la Construcción / Armenia">Quindío / 9231 Centro para el Desarrollo Tecnológico de la Construcción / Armenia</option>
+                <option value="Valle / 9125 Centro Latinoamericano de Especies Menores / Tulúa">Valle / 9125 Centro Latinoamericano de Especies Menores / Tulúa</option>
+                <option value="Arauca / 9530 Centro de Gestión y Desarrollo Agroindustrial de Arauca / Arauca">Arauca / 9530 Centro de Gestión y Desarrollo Agroindustrial de Arauca / Arauca</option>
+                <option value="Bolívar / 9218 Centro para la Industria Petroquímica / Cartagena">Bolívar / 9218 Centro para la Industria Petroquímica / Cartagena</option>
+                <option value="Boyacá / 9111 Centro Minero / Sogamoso">Boyacá / 9111 Centro Minero / Sogamoso</option>
+                <option value="Chocó / 9522 Centro de Recursos Naturales, Industria y Biodiversidad / Quibdó">Chocó / 9522 Centro de Recursos Naturales, Industria y Biodiversidad / Quibdó</option>
+                <option value="Cesar / 9521 Centro de Operación y Mantenimiento Minero / Valledupar">Cesar / 9521 Centro de Operación y Mantenimiento Minero / Valledupar</option>
+                <option value="Distrito Capital / 9405 Centro de Servicios Financieros / Bogotá">Distrito Capital / 9405 Centro de Servicios Financieros / Bogotá</option>
+                <option value="Meta / 9117 Centro Agroindustrial del Meta / Villavicencio">Meta / 9117 Centro Agroindustrial del Meta / Villavicencio</option>
+                <option value="Guajira / 9222 Centro Industrial y de Energías Alternativas / Riohacha">Guajira / 9222 Centro Industrial y de Energías Alternativas / Riohacha</option>
+             </select>
+            <div class="pregunta">
+                <label for="Carrerra">Carrerra</label>
+                <select id="Carrerra" name="satisfaccion" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="57 TGO  EN GESTION DE MERCADOS">57 TGO  EN GESTION DE MERCADOS</option>
+                    <option value="2 TGO  EN MANTENIMIENTO EN LINEA DE AVIONES">2 TGO  EN MANTENIMIENTO EN LINEA DE AVIONES</option>
+                    <option value="22 TGO  EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO">22 TGO  EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO</option>
+                    <option value="84 TGO  EN ENTRENAMIENTO DEPORTIVO">84 TGO  EN ENTRENAMIENTO DEPORTIVO</option>
+                    <option value="Entrenamiento deportivo ">Entrenamiento deportivo </option>
+                    <option value="TECNOLOGÍA EN ENTRENAMIENTO DEPORTIVO">TECNOLOGÍA EN ENTRENAMIENTO DEPORTIVO </option>
+                    <option value="Tecnólogo en Entrenamiento deportivo">Tecnólogo en Entrenamiento deportivo</option>
+                    <option value="96 TGO  EN ACTIVIDAD FISICA">96 TGO  EN ACTIVIDAD FISICA</option>
+                    <option value="21 TGO  EN GESTION DE RECURSOS EN PLANTAS DE PRODUCCION">21 TGO  EN GESTION DE RECURSOS EN PLANTAS DE PRODUCCION</option>
+                    <option value="22 TGO  EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO">22 TGO  EN GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO</optio>
+                    <option value="125 TGO  EN GESTION CONTABLE Y DE INFORMACION FINANCIERA">125 TGO  EN GESTION CONTABLE Y DE INFORMACION FINANCIERA</option> 
+                    <option value="53 TGO  EN GESTION CONTABLE Y FINANCIERA">53 TGO  EN GESTION CONTABLE Y FINANCIERA</option>
+                    <option value="8 ESP TECNOLOGICA EN ESTRUCTURACION DEL PLAN COMERCIAL">8 ESP TECNOLOGICA EN ESTRUCTURACION DEL PLAN COMERCIAL</option>
+                    <option value="76 TGO  EN GESTION FINANCIERA Y DE TESORERIA">76 TGO  EN GESTION FINANCIERA Y DE TESORERIA</option>
+                    <option value="TGO Gestión Contable y De Información Financiera ">TGO Gestión Contable y De Información Financiera </option>
+                    <option value="Tenologia en gestion seguridad y salud en el trabajo">Tenologia en gestion seguridad y salud en el trabajo</option>
+                    <option value="72 TGO  EN GESTION DE LA PRODUCCION INDUSTRIAL">72 TGO  EN GESTION DE LA PRODUCCION INDUSTRIAL</option>
+                    <option value="Gestión de la producción industrial ">Gestión de la producción industrial </option>
+                    <option value="tecnologo en gestion de la produccion industrial">tecnologo en gestion de la produccion industrial</option>
+                    <option value="84 TGO  EN ENTRENAMIENTO DEPORTIVO">84 TGO  EN ENTRENAMIENTO DEPORTIVO</option>
+                    <option value="29 TGO  EN MANTENIMIENTO MECANICO INDUSTRIAL">29 TGO  EN MANTENIMIENTO MECANICO INDUSTRIAL</option>
+                    <option value="64 TGO  EN MANTENIMIENTO ELECTROMECANICO INDUSTRIAL">64 TGO  EN MANTENIMIENTO ELECTROMECANICO INDUSTRIAL</option>
+                    <option value="161 TGO  EN MANTENIMIENTO ELECTROMECANICO INDUSTRIAL">161 TGO  EN MANTENIMIENTO ELECTROMECANICO INDUSTRIAL</option>
+                    <option value="53 TGO  EN GESTION CONTABLE Y FINANCIERA">53 TGO  EN GESTION CONTABLE Y FINANCIERA</option>
+                    <option value="Gestion contable y financiera">Gestion contable y financiera</option>
+                    <option value="TMEI tecnólogo mantenimiento electromecánico industrial">TMEI tecnólogo mantenimiento electromecánico industrial </option>
+                    <option value="98 TGO  EN SUPERVISION DE REDES DE DISTRIBUCION DE ENERGIA ELECTRICA">98 TGO  EN SUPERVISION DE REDES DE DISTRIBUCION DE ENERGIA ELECTRICA</option>
+                    <option value="95 TGO  EN GESTION DOCUMENTAL">95 TGO  EN GESTION DOCUMENTAL</option>
+                    <option value="45 TGO  EN ELECTRICIDAD INDUSTRIAL">45 TGO  EN ELECTRICIDAD INDUSTRIAL</option>
+                    <option value="TGO EN ELECTRICIDAD INDUSTRIAL ">TGO EN ELECTRICIDAD INDUSTRIAL </option>
+                    <option value="150 TGO  EN ANALISIS Y DLLO  DE SOFTWARE">150 TGO  EN ANALISIS Y DLLO  DE SOFTWARE</option>
+                    <option value="92 TGO  EN GESTION EMPRESARIAL">92 TGO  EN GESTION EMPRESARIAL</option>
+                    <option value="111 TGO  EN CONSTRUCCION EN EDIFICACIONES">111 TGO  EN CONSTRUCCION EN EDIFICACIONES</option>
+                    <option value="117 TGO  EN COORD DE PROCESOS LOGISTICOS">117 TGO  EN COORD DE PROCESOS LOGISTICOS</option>
+                     <option value="Amazonas / 9517 Centro para la Biodiversidad y el Turismo del Amazonas / Leticia">Amazonas / 9517 Centro para la Biodiversidad y el Turismo del Amazonas / Leticia</option>
+                <option value="Magdalena / 9529 Centro de Logística y Promoción Ecoturística del Magdalena / Santa Marta">Magdalena / 9529 Centro de Logística y Promoción Ecoturística del Magdalena / Santa Marta</option>
+                </select>
+                <div class="pregunta">
+                    <label for="Modalidad">Modalidad</label>
+                    <select id="satisfaccion" name="satisfaccion" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="Presencial">Presencial</option>
+                        <option value="virtual">virtual</option>
+                        <option value="Alternativo">Alternativo</option>
+                    </select>
+        </div>
+       <button type="submit">Enlace>>></button>
+    </form>
+    <a href="Autoevaluacion" target="_black" >siguiente</a>
+
+</body>
+</html>

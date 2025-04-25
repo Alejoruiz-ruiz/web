@@ -1,0 +1,25 @@
+let formulario = document.getElementById("formulario");
+let resultado = document.getElementById("resultado");
+
+formulario.addEventListener("submit", function(event) {
+    event.preventDefault();
+    let calidad = document.querySelector('input[name="calidad"]:checked').value;
+    let atencion = document.querySelector('input[name="atencion"]:checked').value;
+    let precio = document.querySelector('input[name="precio"]:checked').value;
+
+    // Procesar la información del formulario
+    console.log(`satisfecho: ${satisfecho}`);
+    console.log(`atencion: ${atencion}`);
+    console.log(`precio: ${precio}`);
+
+    // Mostrar un mensaje de agradecimiento
+    resultado.innerHTML = "Gracias por tu retroalimentación";
+});
+
+boton.addEventListener("click", function() {
+    let correo = "tu_correo_electronico@example.com";
+    let asunto = "Asunto";
+    let cuerpo = "Cuerpo del mensaje";
+    let url = `https://mail.google.com/mail/?view=cm&fs=1&to=${correo}&su=${asunto}&body=${cuerpo}`;
+    window.open(url, "_blank");
+});

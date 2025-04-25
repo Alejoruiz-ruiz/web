@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>satisfacción de aprendices sena</title>
+    <link rel="stylesheet" href="estilo2">
+</head>
+<body>
+    <form id="formulario">
+        <table>
+            <thead>
+                <tr>
+                    <th>preguntas</th>
+                    <th>Totalmente de acuerdo</th>
+                    <th>De acuerdo</th>
+                    <th>Parcialmente de acuerdo</th>
+                    <th>No sabe / No responde</th>
+                    <th>En desacuerdo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.1.1.2¿El nombre del programa de formación influyó en su decisión de inscribirse?</td>
+                    <td><input type="radio" name="q1" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q1" value="De acuerdo"></td>
+                    <td><input type="radio" name="q1" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q1" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q1" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>1.1.1.3¿Las competencias desarrolladas? </td>
+                    <td><input type="radio" name="q2" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q2" value="De acuerdo"></td>
+                    <td><input type="radio" name="q2" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q2" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q2" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>1.1.1.3¿Perfil de egreso del Programa de Formación? </td>
+                    <td><input type="radio" name="q3" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q3" value="De acuerdo"></td>
+                    <td><input type="radio" name="q3" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q3" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q3" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>2.1.1.4¿Considera que el programa responde a las necesidades, problemas y expectativas de la sociedad y del sector productivo?</td>
+                    <td><input type="radio" name="q4" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q4" value="De acuerdo"></td>
+                    <td><input type="radio" name="q4" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q4" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q4" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>2.1.1.5¿Considera que el programa de formación cuenta con oportunidades de empleo y/o emprendimiento?</td>
+                    <td><input type="radio" name="q5" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q5" value="De acuerdo"></td>
+                    <td><input type="radio" name="q5" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q5" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q5" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1¿Considera adecuado el porcentaje de interacción asincrónica del programa para alcanzar los resultados de aprendizaje?</td>
+                    <td><input type="radio" name="q6" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q6" value="De acuerdo"></td>
+                    <td><input type="radio" name="q6" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q6" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q6" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1¿Los contenidos Curriculares (Competencias y Resultados de Aprendizaje) del programa?</td>
+                    <td><input type="radio" name="q7" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q7" value="De acuerdo"></td>
+                    <td><input type="radio" name="q7" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q7" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q7" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1¿El proyecto formativo desarrollado en la formación?</td>
+                    <td><input type="radio" name="q8" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q8" value="De acuerdo"></td>
+                    <td><input type="radio" name="q8" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q8" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q8" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1¿El perfil de egresado del programa?</td>
+                    <td><input type="radio" name="q9" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q9" value="De acuerdo"></td>
+                    <td><input type="radio" name="q9" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q9" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q9" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1 ¿La formación por competencias?</td>
+                    <td><input type="radio" name="q10" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q10" value="De acuerdo"></td>
+                    <td><input type="radio" name="q10" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q10" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q10" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.2.1.1 ¿Está de acuerdo con los criterios, las estrategias y los instrumentos de evaluación que utiliza el programa en los escenarios de práctica?</td>
+                    <td><input type="radio" name="q11" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q11" value="De acuerdo"></td>
+                    <td><input type="radio" name="q11" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q11" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q11" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>3.3.4.2¿Las estrategias pedagógicas y/o los planes de mejoramiento implementados en la formación 
+                        contribuyeron a mejorar su desempeño y a obtener los resultados de aprendizaje previstos en el programa?</td>
+                    <td><input type="radio" name="q12" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q12" value="De acuerdo"></td>
+                    <td><input type="radio" name="q12" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q12" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q12" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>4.1.1.4¿La jornada en el cual se desarrolla la formación?</td>
+                    <td><input type="radio" name="q13" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q13" value="De acuerdo"></td>
+                    <td><input type="radio" name="q13" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q13" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q13" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>4.1.1.4 ¿Número de horas establecidas en las competencias?</td>
+                    <td><input type="radio" name="q14" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q14" value="De acuerdo"></td>
+                    <td><input type="radio" name="q14" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q14" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q14" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>4.1.1.4 ¿La duración (en meses) del programa?</td>
+                    <td><input type="radio" name="q15" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q15" value="De acuerdo"></td>
+                    <td><input type="radio" name="q15" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q15" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q15" value="En desacuerdo"></td>
+                </tr>
+                 <tr>
+                 <tr>
+                    <td>4.1.1.5 ¿La plataforma LMS (Territorium)?</td>
+                    <td><input type="radio" name="q16" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q16" value="De acuerdo"></td>
+                    <td><input type="radio" name="q16" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q16" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q16" value="En desacuerdo"></td>
+                </tr>
+                    <td>4.1.1.5 ¿Los ambientes en el Centro de Formación?</td>
+                    <td><input type="radio" name="q17" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q17" value="De acuerdo"></td>
+                    <td><input type="radio" name="q17" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q17" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q17" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>4.1.1.5¿El desarrollo de la etapa productiva?</td>
+                    <td><input type="radio" name="q18" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q18" value="De acuerdo"></td>
+                    <td><input type="radio" name="q18" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q18" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q18" value="En desacuerdo"></td>
+                </tr>
+                <tr>
+                    <td>4.1.1.6¿Considera que el desarrollo del programa permite la movilidad (cadena de formación, convenios con las IES, traslados de modalidad, de jornada o intercentros)? </td>
+                    <td><input type="radio" name="q19" value="Totalmente de acuerdo"></td>
+                    <td><input type="radio" name="q19" value="De acuerdo"></td>
+                    <td><input type="radio" name="q19" value="Parcialmente de acuerdo"></td>
+                    <td><input type="radio" name="q19" value="No sabe / No responde"></td>
+                    <td><input type="radio" name="q19" value="En desacuerdo"></td>
+                </tr>
+           </tbody>
+        </table>
+        <button id="enviar">Enviar</button>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" target="_blank">
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>       
+    
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>
